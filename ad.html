@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google advanced search</title>
+    <link href="ad.css" rel="stylesheet" crossorigin="anonymous"> 
+    <link href="css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="js/bootstrap.js">
+</head>
+<body>
+    <div class="nav">
+        <a href="image.html" id="nav">Image search</a>
+        <a href="index.html" id="nav">Google Search</a>
+    </div><br><br>
+    <div>
+        <h2> Advanced Search </h2>
+    </div>
+    <div>
+        <h3>Find pages with...</h3>
+    </div>
+    <form action="https://www.google.com/search">
+        <div class="options">
+            <table>
+             <tr ><td><div class="c1">
+                all thses words :
+            </div></td>
+            <td class="c2">
+                <input type="text" name="q" class="i1"> 
+            </td>
+            <td class="c3">
+            <div class="exp">
+                Type the important words:
+                 <div class="exp2"> tri-colour rat terrier</div>
+            </div>
+        </td>
+        </tr>
+            <tr>
+                <td>
+                    <div class="c1">
+                        this exact word or phrase:
+                    </div>
+                </td>
+                <td class="c2">
+                    <input type="text" name="q" class="i1">
+                </td>
+                <td>
+                    <div class="exp">
+                        Put exact words in quotes: 
+                        <div class="exp2">"rat terrier"</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="c1">
+                        any of these words:
+                    </div>
+                </td>
+                <td class="c2">
+                    <input type="text" name="q" class="i1">
+                </td>
+                <td>
+                    <div class="exp">
+                        Type <div class="exp2">OR</div>between all the words you want:
+                        <div class="exp2">miniature OR standard</div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="c1">
+                       none of these words:
+                    </div>
+                </td>
+                <td class="c2">
+                    <input type="text" name="q" class="i1">
+                </td>
+                <td>
+                    <div class="exp">
+                        Put a minus sign just before words that you don't want:
+                        <div class="exp2">-rodent, -"Jack Russell" </div>
+                    </div>
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <div class="c1">
+                        numbers ranging from:
+                    </div>
+                </td>
+                <td class="c2">
+                    <div class="c1"><input name="q" type="text" class="c21">to<input name="q" type="text" class="c22"></div>
+                </td>
+                <td>
+                    <div class="exp">
+                        Put two full stops between the numbers and add a unit of measurement: 
+                        <div class="exp2">10..35 kg, £300..£500, 2010..2011 </div>
+                    </div>
+                </td>    
+            </tr>
+        </table>
+        </div>
+        <div>
+              <input class="search-btn" type="submit" 
+              style="margin-left: 550px; color:#202124; 
+              background:#8ab4f8; border-radius: 2px; 
+              border-color: #8ab4f8;  position: fixed;" value="Advanced Search">
+        </div>
+      
+    </form>
+
+</body>
+</html>

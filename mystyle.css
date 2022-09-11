@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wid {
+    margin-top: 50px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    margin-right: 25px;
+    margin-top: 25px;
+    color: black;
+}
+.img{
+   margin-right: 20px;
+   float: right;
+   color: black;
+   text-decoration:none;
+}
+.adv {
+    float: right;
+    color: black;
+   text-decoration:none;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    text-align: center;
+    object-position: center center;
+    
+    
+}
+.center-logo {
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    
+   
+}
+.logo{
+    color: black;
+    width:272 ;
+    height:92 ;
+    min-width: 272;
+    min-height: 92;
+}
+
+.container{
+    text-align:center;
+    margin-top: 20px;
+    height: 10px; width: 300px;
+}
+
+.search{
+    width:640px;
+    margin: 0 auto;
+    border:1px solid gray;
+    border-radius: 25px;
+}
+.search-bar{
+    width: 550px;
+    padding-top:20px; 
+    font-size:18px;
+    border:hidden;
+    padding-top: 15px;
+    margin-bottom:10px;
+    max-height: 35px;
+}
+
+.search-icon{
+    position: relative;
+    height: 20px;
+    margin-top: 0px;
+    width: 20px;
+    margin-left:-20px; 
+    margin-right: 11px;
+}
+
+
+.search-button{
+    height: 40px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    background: #f2f2f2;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 11px;
+}
+
+.button-container{
+    margin-top:2%;
+}
